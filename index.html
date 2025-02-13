@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projektübersicht</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #596e79;
+        }
+
+        html {
+            scroll-behavior: smooth; /* Enables smooth scrolling */
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        /* Navbar Styles */
+        nav {
+            position: fixed; /* Navbar stays at the top */
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #f0ece2;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            padding: 15px 0;
+            text-align: center;
+            z-index: 1000; /* Ensures it's always on top */
+            font-family: "Goudy Old Style", serif;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            font-weight: bold;
+            color: black;
+        }
+
+        /* Header Styles */
+        header {
+            margin: 20px 0;
+            position: relative;
+            width: 100%;
+            overflow: hidden;
+            padding-bottom: 50px;
+            font-family: "Goudy Old Style", serif;
+        }
+
+        header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Ensures the image covers the entire area */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            width: 100%;
+            font-family: monospace;
+        }
+
+        .overlay h1,
+        .overlay h2 {
+            font-size: 50px;
+            font-weight: bold;
+            color: rgba(255, 255, 255, 0.7);
+            text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Main Content Styles */
+        .container {
+            width: 80%;
+            margin: auto;
+            text-align: center;
+            padding-bottom: 100px;
+        }
+
+        .gruppe {
+            background: #e8d5b7;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            font-family: "Goudy Old Style", serif;
+        }
+
+        .smiri {
+            font-size: 25px;
+            padding-bottom: 10px;
+        }
+
+        .projekte {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            font-family: "Goudy Old Style", serif;
+        }
+
+        .projekt {
+            background: #c7b198;
+            padding: 15px;
+            border-radius: 5px;
+            width: 250px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Button Styles */
+        .open-btn {
+            background-color: #596e79;
+            color: white;
+            font-size: 18px;
+            font-weight: bold;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: block;
+            margin: 10px auto;
+        }
+
+        .open-btn:hover {
+            background-color: #0056b3;
+            transform: scale(1.1);
+        }
+
+        .open-btn:active {
+            transform: scale(0.95);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <ul>
+            <li><a href="#top">HOME</a></li>
+            <li><a href="#projekte">PROJEKTE</a></li>
+        </ul>
+    </nav>
+
+    <!-- Header Section -->
+    <header>
+        <img src="lol.jpg" alt="Header Image">
+        <div class="overlay">
+            <h1>RECHTSLEHRE</h1>
+            <h2>FOS SCHWANDORF</h2>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container" id="projekte">
+        <div class="gruppe">
+            <h2 class="smiri">WILKOMMEN ZUR PROJEKTÜBERSICHT</h2>
+            <div class="projekte">
+                <!-- Project Cards -->
+                <div class="projekt">
+                    <h3>Rechtliche Besonderheiten von Onlinehandel</h3>
+                    <a href="https://drive.google.com/file/d/1PSuoH4p43sMCkqWQV2gEkfjuNM4W6C6_/view?usp=drivesdk" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Kriminalgeschichte</h3>
+                    <a href="https://example.com" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Steuerhinterziehungen in Deutschland</h3>
+                    <a href="https://videos.simpleshow.com/oa2gtC6I4L" target="_blank">
+                        <button class="open-btn">Öffnen 1 🚀</button>
+                    </a>
+                    <a href="https://lssadlocal-my.sharepoint.com/:p:/g/personal/bs_asi_faizi_fos-bos-schwandorf_de/ESHmnTRr0SJGra1KLkj94WIBgxdI8Yq5p5OnWzeo7MhEBw?rtime=m9jagw5J3Ug" target="_blank">
+                        <button class=https://lssadlocal-my.sharepoint.com/:p:/g/personal/bs_asi_faizi_fos-bos-schwandorf_de/ESHmnTRr0SJGra1KLkj94WIBgxdI8Yq5p5OnWzeo7MhEBw?rtime=m9jagw5J3Ug"open-btn">Öffnen 2 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Schulabschlüsse in Deutschland</h3>
+                    <a href="https://prezi.com/p/zzp4uaa7rj0k/?present=1" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Gerichtsbarkeiten in Deutschland</h3>
+                    <a href="https://docs.google.com/presentation/d/1DcT66Vd--HIXyPm6bcYSbkgznJCTJFOY/edit?usp=drivesdk&ouid=115781419391172801250&rtpof=true&sd=true" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Einteilung von Marktformen</h3>
+                    <a href="https://videos.simpleshow.com/cgZN8bC1BB" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Tarifverträge in Deutschland</h3>
+                    <a href="https://example.com" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Korruption in Europa</h3>
+                    <a href="https://drive.google.com/file/d/1L1JEO84H6C0SrBGcBmT9gikHvOzpvTmQ/view?usp=drivesdk" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Erfolgreiche Firmen in Deutschland</h3>
+                    <a href="https://example.com" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Gehälter in Westeuropa und in Südeuropa im Vergleich zu Deutschland</h3>
+                    <a href="https://lssadlocal-my.sharepoint.com/:p:/g/personal/bs_myk_kharch_fos-bos-schwandorf_de/EY_p-jfJrI5DqjKB36am62EBfiE7VtcmW47qf6dsnrx-oQ?e=28W9mB" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+                <div class="projekt">
+                    <h3>Preisbildung am offenen Markt</h3>
+                    <a href="https://drive.google.com/file/d/1LEO5rquUY2SPJMmb14tJZ52bxlRmtu_p/view?usp=drivesdk" target="_blank">
+                        <button class="open-btn">Öffnen 🚀</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
